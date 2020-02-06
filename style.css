@@ -62,6 +62,14 @@ h3 {
 	float: left;
 }
 
+#box1 {
+	position: absolute;
+right: 0px;
+padding-right: 100px;
+width: 500px;
+
+}
+
 img {
 	margin-right: 15px;
 	margin-left: 15px;
