@@ -1,7 +1,6 @@
 p {
 	color: #cc3300;
     font-family: Helvetica, Arial, sans-serif;
-		text-align: center;
 }
 
 h1 {
@@ -29,7 +28,7 @@ h3 {
 }
 
 #page {
-	width: 800px;
+	width: 850px;
 	padding: 50px;
 	margin: 20px;
 }
@@ -39,8 +38,11 @@ h3 {
 	display: block;
 	color: #ffffff;
 	background-color: blue;
-	padding: 10px;
+	padding: 8px;
 	font-weight: bolder;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 img {
