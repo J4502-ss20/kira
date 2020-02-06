@@ -9,14 +9,42 @@ h1 {
 		text-align: center;
 }
 
-#nav {
-	  padding: 50px;
-	  margin: 20px;
-		border-bottom: 1px solid #cc3300;
-		font-family: Helvetica, Arial, sans-serif;
-}
-
 h3 {
 	font-family: Helvetica, Arial, sans-serif;
 	text-align: center;
+}
+
+#nav {
+		border: 3px solid #cc3300;
+		border-radius: 5px;
+		list-style-type: none;
+		font-family: Helvetica, Arial, sans-serif;
+		text-align: center;
+}
+
+#nav li {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+#page {
+	width: 800px;
+	padding: 50px;
+	margin: 20px;
+}
+
+#nav a:link, #nav a:visited {
+	text-decoration: none;
+	display: block;
+	color: #ffffff;
+	background-color: blue;
+	padding: 10px;
+	font-weight: bolder;
+}
+
+img {
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px;
 }
