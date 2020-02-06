@@ -1,23 +1,28 @@
 p {
-	color: #cc3300;
-    font-family: Helvetica, Arial, sans-serif;
+	color: #012233;
+  font-family: Helvetica, Arial, sans-serif;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 10px;
 }
 
 h1 {
     font-family: Helvetica, Arial, sans-serif;
 		text-align: center;
+		color: #A30DA6;
 }
 
 h3 {
 	font-family: Helvetica, Arial, sans-serif;
 	text-align: center;
+	color: #A30DA6;
 }
 
 #nav {
-		border: 3px solid #cc3300;
-		border-radius: 5px;
 		font-family: Helvetica, Arial, sans-serif;
 		text-align: center;
+		margin: 0;
+		padding: 0;
 }
 
 #nav li {
@@ -30,12 +35,16 @@ h3 {
 #page {
 	padding: 50px;
 	margin: 20px;
+	background-color: #04BFBF;
+	overflow: auto;
+	width: 80%;
+	margin: auto;
 }
 
 #nav a:link, #nav a:visited {
 	display: block;
 	color: #ffffff;
-	background-color: blue;
+	background-color: #38208C;
 	padding: 8px;
 	font-weight: bolder;
 	margin-right: 5px;
@@ -44,8 +53,12 @@ h3 {
 }
 
 #nav a:hover, #nav a:active {
-	background-color: green;
+	background-color: #A30DA6;
 
+}
+
+#box {
+	float: left;
 }
 
 img {
@@ -54,7 +67,7 @@ img {
 }
 
 .caption {
-	color: black;
+	color: #012233;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: italic;
 	font-size: 0.8em;
@@ -63,7 +76,7 @@ img {
 }
 
 #footer {
-	color: black;
+	color: #012233;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: italic;
 	font-size: 0.8em;
