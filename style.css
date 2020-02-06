@@ -10,5 +10,12 @@ h1 {
 }
 
 p {
-	color:#cc3300}
+	color:#cc3300
+}
+
+div {
+	  width: 300px;
+	  border: 15px blue;
+	  padding: 50px;
+	  margin: 20px;
 }
