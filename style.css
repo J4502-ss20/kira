@@ -17,49 +17,46 @@ h3 {
 	color: #A30DA6;
 }
 
+#container {
+	width: 95%;
+	margin: 0 auto;
+}
+
 #nav {
-		font-family: "Courier New", Courier, monospace;
-		text-align: center;
-		margin: 0;
-		padding: 0;
+	padding: 0;
 }
 
 #nav li {
-	list-style-type: none;
   margin: 0;
   padding: 0;
+	list-style-type: none;
 	border-bottom: 1px solid #ccc;
-	text-decoration: none;
-}
-
-#page {
-	padding: 50px;
-	background-color: #04BFBF;
-	overflow: auto;
-	width: 80%;
-	margin: auto;
 }
 
 #nav a:link, #nav a:visited {
 	display: block;
 	color: #ffffff;
 	background-color: #38208C;
-	padding: 8px;
 	font-weight: bolder;
+	text-align: center;
+	text-decoration: none;
+	padding: 8px;
 	margin-right: 5px;
 	margin-left: 5px;
 	font-family: "Courier New", Courier, monospace;
-	text-decoration: none;
-
 }
 
 #nav a:hover, #nav a:active {
 	background-color: #A30DA6;
+}
 
+#page {
+	padding: 50px;
+	background-color: #04BFBF;
 }
 
 img {
-	width: 80%;
+	border: none;
 }
 
 .caption {
@@ -68,9 +65,7 @@ img {
 	font-style: italic;
 	font-size: 0.8em;
 	margin-top: 0;
-	margin-right: 10%;
-	margin-left: 10%;
-	text-align: left;
+	text-align: right;
 }
 
 #footer {
