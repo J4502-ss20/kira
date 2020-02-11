@@ -12,7 +12,7 @@ h1 {
 }
 
 h3 {
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Courier New", Courier, serif;
 	text-align: center;
 	color: #A30DA6;
 }
@@ -43,7 +43,7 @@ h3 {
 	padding: 8px;
 	margin-right: 5px;
 	margin-left: 5px;
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Courier New", Courier, serif;
 }
 
 #nav a:hover, #nav a:active {
@@ -51,7 +51,7 @@ h3 {
 }
 
 #page {
-	padding: 50px;
+	padding: 5%;
 	background-color: #04BFBF;
 }
 
@@ -61,7 +61,7 @@ img {
 
 .caption {
 	color: #012233;
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Courier New", Courier, serif;
 	font-style: italic;
 	font-size: 0.8em;
 	margin-top: 0;
@@ -70,7 +70,7 @@ img {
 
 #footer {
 	color: #012233;
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Courier New", Courier, serif;
 	font-style: italic;
 	font-size: 0.8em;
 	text-align: center;
