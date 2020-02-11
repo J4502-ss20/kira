@@ -1,18 +1,18 @@
 p {
 	color: #012233;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
 	width: 80%;
 }
 
 h1 {
-  	font-family: 'VT323', monospace;
+  	font-family: 'Press Start 2P', sans-serif;
 		font-size: 5em;
 		text-align: center;
 		color: #A30DA6;
 }
 
 h3 {
-	font-family: "Courier New", Courier, serif;
+	font-family: 'Press Start 2P', sans-serif;
 	text-align: center;
 	color: #A30DA6;
 }
@@ -43,7 +43,7 @@ h3 {
 	padding: 8px;
 	margin-right: 5px;
 	margin-left: 5px;
-	font-family: "Courier New", Courier, serif;
+	font-family: "Press Start 2P", sans-serif;
 }
 
 #nav a:hover, #nav a:active {
@@ -61,7 +61,7 @@ img {
 
 .caption {
 	color: #012233;
-	font-family: "Courier New", Courier, serif;
+	font-family: Georgia, "Times New Roman", serif;
 	font-style: italic;
 	font-size: 0.8em;
 	margin-top: 0;
@@ -70,7 +70,7 @@ img {
 
 #footer {
 	color: #012233;
-	font-family: "Courier New", Courier, serif;
+	font-family: Georgia, "Times New Roman", serif;
 	font-style: italic;
 	font-size: 0.8em;
 	text-align: center;
