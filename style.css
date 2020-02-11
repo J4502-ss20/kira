@@ -6,7 +6,7 @@ p {
 
 h1 {
   	font-family: 'Press Start 2P', sans-serif;
-		font-size: 5em;
+		font-size: 3em;
 		text-align: center;
 		color: #A30DA6;
 }
@@ -43,7 +43,7 @@ h3 {
 	padding: 8px;
 	margin-right: 5px;
 	margin-left: 5px;
-	font-family: "Press Start 2P", sans-serif;
+	font-family: "Courier New", Courier, monospace;
 }
 
 #nav a:hover, #nav a:active {
@@ -61,7 +61,7 @@ img {
 
 .caption {
 	color: #012233;
-	font-family: Georgia, "Times New Roman", serif;
+	font-family: "Courier New", Courier, monospace;
 	font-style: italic;
 	font-size: 0.8em;
 	margin-top: 0;
@@ -70,7 +70,7 @@ img {
 
 #footer {
 	color: #012233;
-	font-family: Georgia, "Times New Roman", serif;
+	font-family: "Courier New", Courier, monospace;
 	font-style: italic;
 	font-size: 0.8em;
 	text-align: center;
