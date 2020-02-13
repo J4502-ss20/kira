@@ -3,6 +3,7 @@ html {
 }
 
 p {
+	color: #012233;
   font-family: 'Merriweather', Georgia, "Times New Roman", serif;
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -12,13 +13,13 @@ h1 {
   	font-family: 'Press Start 2P', sans-serif;
 		font-size: 3em;
 		text-align: center;
-		color: ###D9353E;
+		color: #A30DA6;
 }
 
 h3 {
 	font-family: 'Press Start 2P', sans-serif;
 	text-align: center;
-	color: ###D9353E;
+	color: #A30DA6;
 	line-height: 1.5rem;
 }
 
