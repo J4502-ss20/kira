@@ -1,3 +1,11 @@
+/* Color Theme Swatches in Hex
+orange { color: #F0864A; }
+purple { color: #6C3553; }
+yellow { color: #F6D95B; }
+cream { color: #F7E9CF; }
+red { color: #D9353E; }
+*/
+
 html {
 	font-size: 100%;
 }
@@ -12,18 +20,18 @@ h1 {
   	font-family: 'Press Start 2P', sans-serif;
 		font-size: 3em;
 		text-align: center;
-		color: ###D9353E;
+		color: #D9353E;
 }
 
 h3 {
 	font-family: 'Press Start 2P', sans-serif;
 	text-align: center;
-	color: ###D9353E;
+	color: #D9353E;
 	line-height: 1.5rem;
 }
 
 #container {
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -35,13 +43,13 @@ h3 {
   margin: 0px;
   padding: 0px;
 	list-style-type: none;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #F7E9CF;
 }
 
 #nav a:link, #nav a:visited {
 	display: block;
-	color: #ffffff;
-	background-color: #38208C;
+	color: #6C3553;
+	background-color: #F0864A;
 	font-weight: bolder;
 	text-align: center;
 	text-decoration: none;
@@ -50,12 +58,12 @@ h3 {
 }
 
 #nav a:hover, #nav a:active {
-	background-color: #A30DA6;
+	background-color: #F6D95B;
 }
 
 #page {
 	padding: 5%;
-	background-color: #04BFBF;
+	background-color: #F7E9CF;
 }
 
 img {
@@ -63,7 +71,7 @@ img {
 }
 
 .caption {
-	color: #ffffff;
+	color: #6C3553;
 	font-family: "Courier New", sans-serif;
 	font-style: italic;
 	font-size: 1rem;
@@ -72,7 +80,6 @@ img {
 }
 
 #footer {
-	color: #012233;
 	font-family: "Courier New", sans-serif;
 	font-style: italic;
 	font-size: 0.8em;
