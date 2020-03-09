@@ -86,7 +86,7 @@ img {
 
 .container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 @media (min-width: 600px) {
