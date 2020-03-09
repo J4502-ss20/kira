@@ -2,43 +2,8 @@ html {
 	font-size: 100%;
 }
 
-p {
-	color: #012233;
-  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
-	font-size: 1rem;
-	line-height: 1.5rem;
-}
-
-h1 {
-  	font-family: 'Press Start 2P', sans-serif;
-		font-size: 3em;
-		text-align: center;
-		color: #A30DA6;
-}
-
-h3 {
-	font-family: 'Press Start 2P', sans-serif;
-	text-align: center;
-	color: #A30DA6;
-	line-height: 1.5rem;
-}
-
-#container {
-	margin: 0 auto;
-}
-
-#nav {
-	padding: 0px;
-}
-
-#nav li {
-  margin: 0px;
-  padding: 0px;
-	list-style-type: none;
-	border-bottom: 1px solid #ccc;
-}
-
-#nav a:link, #nav a:visited {
+.nav a:link, .nav a:visited {
+	display: block;
 	color: #ffffff;
 	background-color: #38208C;
 	font-weight: bolder;
@@ -49,7 +14,8 @@ h3 {
 	border-bottom: 1px solid #ccc;
 }
 
-#nav a:hover, #nav a:active {
+
+.nav a:hover, #nav a:active {
 	background-color: #A30DA6;
 }
 
@@ -83,20 +49,26 @@ img {
 	font-style: italic;
 }
 
-.container {
+.nav {
 	display: flex;
-	flex-direction: row;
+	flex-flow: row wrap;
+	padding: 10px;
+	border-radius: 5px;
 }
 
-@media (min-width: 600px) {
-	.container {
-		flex-direction: row;
-	}
+.item {
+	padding: 15px;
+	margin: 5px;
 }
 
-@media (min-width: 800px) {
+/*@media (min-width: 800px) {
 	.item {
 		margin-right: auto;
+	}
+}
+*/
+@media (max-width: 600px) {
+	.nav {
 		flex-direction: column;
 	}
 }
