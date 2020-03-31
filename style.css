@@ -2,30 +2,51 @@ html {
 	font-size: 100%;
 }
 
+.meat {
+	font-family:"Poppins", sans-serif;
+}
+
+.header {
+	font-family:"Press Start 2P", sans-serif;
+	font-size: 2em;
+}
+
+.h3 {
+	font-family:"Press Start 2P", sans-serif;
+}
+
 .nav a:link, .nav a:visited {
 	display: block;
 	color: #ffffff;
 	background-color: #38208C;
 	font-weight: bolder;
 	text-align: center;
-	text-decoration: none;
 	padding: 8px;
 	font-family: "Courier New", sans-serif;
 	border-bottom: 1px solid #ccc;
+	text-decoration: none;
 }
-
 
 .nav a:hover, #nav a:active {
 	background-color: #A30DA6;
 }
 
 #page {
-	padding: 5%;
 	background-color: #04BFBF;
+	display: grid;
+	grid-template-rows: 150px min-content min-content 1fr;
+	grid-template-columns: 20em 1fr;
 }
 
 img {
 	border: none;
+	display: block;
+}
+
+.image {
+	display: block;
+	grid-column: 2;
+	padding: 2em;
 }
 
 .caption {
@@ -51,24 +72,32 @@ img {
 
 .nav {
 	display: flex;
-	flex-flow: row wrap;
-	padding: 10px;
-	border-radius: 5px;
+	flex-flow: column;
+	list-style-type: none;
+	grid-column: 1;
+	padding: 2em;
 }
 
-.item {
-	padding: 15px;
-	margin: 5px;
+.paras {
+	grid-column: 2;
+	padding: 2em;
 }
 
-/*@media (min-width: 800px) {
-	.item {
-		margin-right: auto;
+@media screen and (max-width: 600px) {
+	#page {
+		width: 100%;
 	}
-}
-*/
-@media (max-width: 600px) {
+
 	.nav {
-		flex-direction: column;
+		width: 80%;
 	}
+
+img {
+	width: 80%;
+}
+
+	.caption {
+		width: 60%;
+	}
+
 }
