@@ -81,11 +81,11 @@ img {
 	padding: 2em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 	#page {
 		width: 100%;
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr;
 	}
 
 	.nav {
@@ -94,7 +94,7 @@ img {
 	}
 
 img {
-	width: 90%;
+	width: 100%;
 }
 
 	.caption {
@@ -109,12 +109,11 @@ img {
 	.image {
 		display: block;
 		grid-column: 1;
-		padding: 2em;
 	}
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
 	#page {
 		width: 100%;
 		display: grid;
